@@ -85,7 +85,7 @@
 </a>
 <figcaption class="figure-caption">Figure 1. Decoding patches and registers for reconstruction and generation.</figcaption>
 </figure>
-<p class="pub-summary">We study what is lost when image decoders use only patch tokens. Retaining four register tokens alongside all spatial patches improves reconstruction from frozen DINOv2 and DINOv3 representations. For generation, a lightweight MHAP module recovers register features from sampled patches and improves image quality without retraining the diffusion model.</p>
+<p class="pub-summary">We investigate what register tokens encode and how they influence image reconstruction. Through appearance probes and controlled register substitutions, we characterize their role in preserving global image properties such as color and illumination. Incorporating registers alongside all spatial patches improves reconstruction from frozen DINOv2 and DINOv3 encoders, while recovering them from sampled patches improves generation without retraining the diffusion model.</p>
 <div aria-label="Resources for Decoding Register Tokens Preserves Global Scene Details" class="pub-links">
 <a href="https://arxiv.org/abs/2610.13299">Paper <span aria-hidden="true">↗</span></a>
 <a href="https://github.com/David-Drexlin/decoding-register-tokens">Code <span aria-hidden="true">↗</span></a>
